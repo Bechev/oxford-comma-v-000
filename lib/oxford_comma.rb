@@ -9,4 +9,5 @@ def oxford_comma(array)
       string += element + ", "
       count += 1
     end
+  end
 end
