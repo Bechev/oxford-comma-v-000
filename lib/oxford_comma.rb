@@ -4,7 +4,9 @@ def oxford_comma(array)
   array.each_with_index do |element, index|
     if count == (array.size - 1)
       string += ", and " + element
+      count += 1
     else
       string += element + ", "
+      count += 1
     end
 end
