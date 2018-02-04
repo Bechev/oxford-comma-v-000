@@ -6,4 +6,5 @@ def oxford_comma(array)
       string += ", and " + element
     else
       string += element + ", "
+    end
 end
