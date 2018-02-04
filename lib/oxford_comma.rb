@@ -7,4 +7,5 @@ def oxford_comma(array)
       string += element + ", "
     end
   end
+  return string
 end
